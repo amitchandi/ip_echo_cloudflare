@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "CXwEv4djbPk1SMLHDH/OdPa6BLNWcJCNahHDEHzBFc8=",
+  "Source": "ip_echo",
+  "BasePath": "_content/ip_echo",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
