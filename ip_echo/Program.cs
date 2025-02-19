@@ -12,11 +12,7 @@ if (app.Environment.IsDevelopment())
     app.MapOpenApi();
 }
 
-app.UseHttpsRedirection();
-
-
-
-app.MapGet("/", (HttpRequest request) => request.Host.Host)
+app.MapGet("/", (HttpRequest request) => request.Headers["CF-CONNECTING-IP"].ToString())
     .WithName("Get");
 
 app.Run();
