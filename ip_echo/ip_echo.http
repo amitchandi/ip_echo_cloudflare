@@ -1,6 +1,0 @@
-@ip_echo_HostAddress = http://localhost:5245
-
-GET {{ip_echo_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
